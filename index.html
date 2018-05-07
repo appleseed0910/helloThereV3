@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+    <script src="inkd/webcomponents-lite.js" type="application/javascript"></script>
+    <link rel="import" href="inkd/inkd.html">
+    <link rel="icon" href="inkd/inkd-images/inkd-icon.png" type="image/png">
+
+    <!-- Custom Style Sheet -->
+    <link rel="import" href="my_story_style.html">
+
+    <!-- Story file -->
+    <link rel="import" href="my_story.html">
+
+    <title>Hello, there..?</title>
+
+</head>
+
+<body>
+    <inkd-ml>
+        <!--inkd-cyoa HOLDS THE STORY. YOU DON'T NEED TO CHANGE
+        THIS NAME UNLESS YOU ARE COMBINING MULTIPLE STORIES
+        INTO ONE BIGGER PROJECT-->
+        <inkd-cyoa name="main">
+            
+            <!--DEFAULT inkd-include. YOU CAN CHANGE
+                THIS IF YOU WANT. THE NAME MUST MATCH
+                THE inkd-content name THAT HOLDS YOUR STORY NODES.-->
+            <inkd-include content="nodes"></inkd-include>
+        </inkd-cyoa>
+    </inkd-ml>
+</body>
+
+</html>

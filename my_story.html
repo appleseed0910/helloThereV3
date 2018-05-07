@@ -1,0 +1,42 @@
+<!--
+    THE name ON inkd-content IS USED TO ADD THE STORY NODES
+    TO YOUR index.html. 
+    THE inkd-include TAG in index.html
+    LOADS THE inkd-content WITH THE MATCHING name PROPERTY.
+-->
+
+<inkd-content name="nodes">
+
+
+    <inkd-node name="node1" start>
+
+        
+        <p>You are in Node 1.</p>
+
+        
+        <inkd-button goto="node2">Go to Node 2</inkd-button>
+
+        <inkd-button goto="node3">Go to Node 3</inkd-button>
+
+    </inkd-node>
+
+    <inkd-node name="node2">
+        <p>You are in Node 2.</p>
+
+
+        <inkd-action style="color:green" goto="node1">Go to Node 1</inkd-action>
+
+        <inkd-action style="color:red" goto="node3">Go to Node 3</inkd-action>
+    </inkd-node>
+
+    <inkd-node name="node3">
+        <p>You are in Node 3.</p>
+
+
+        <inkd-action class="green-box" goto="node1">Go to Node 1</inkd-action>
+
+        <inkd-button class="green-box" goto="node2">Go to Node 2</inkd-button>
+
+    </inkd-node>
+
+</inkd-content>
