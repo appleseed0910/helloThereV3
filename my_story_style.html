@@ -4,7 +4,6 @@
 <style is="custom-style">
     
     /* Clear the default style */
-    
     * {
         margin: 0;
         padding: 0;
@@ -12,40 +11,41 @@
     }
     
     /* Page background color */
-
     body {
         background-color: #212121;
     }
     
     /* The "phone" interface part */
-
     main {
         width: 450px;
         margin: 0 auto;
         margin-top: 30px;
         background-color: #DEDEDE;
+        border: 5px solid #DEDEDE;
+        border-radius: 5px;
     }
     
     /* Phone status Bar */
-
     main #statusBar {
+        margin: 0 auto;
         height: 25px;
         width: 100%;
         background-color: #AED8DD;
+        border: 1px solid #DEDEDE;
+        border-radius: 2px;
+        border-bottom: none;
     }
     
     /* Phone status bar logo container */
-
     main #statusBar #logoBar {
         position: relative;
         top: -1.3em;
         text-align: right;
-        margin-right: 0;
+        margin-right: .2em;
         background-color: #AED8DD;
     }
     
     /* Phone status bar logos */
-
     main #statusBar #logoBar .icon {
         display: inline;
         float: right;
@@ -55,7 +55,6 @@
     }
     
     /* Phone status bar service text -- 'Telenor' */
-
     main #statusBar #service {
         padding-left: 0.35em;
         padding-bottom: 0.2em;
@@ -66,23 +65,52 @@
     
     /*------- D  -  I  -  V  -  I  -  D  -  E ------------*/
     
+    
+    #phoneNumber {
+        background-color: #738E91;
+        border: 1px solid #DEDEDE;
+        border-radius: 3px;
+        border-top: none;
+        font-size: 2em;
+        font-family: 'Pangolin';
+        color: #DEDEDE;
+        text-align: center;
+        padding:0 5em;
+    }
+    
+    
+    
+    /*------- D  -  I  -  V  -  I  -  D  -  E ------------*/
+    
+    inkd-node {
+        background-color: #DEDEDE;
+        height: 20em;
+    }
+    
+    
+    /*------- D  -  I  -  V  -  I  -  D  -  E ------------*/
+    
+    /* General footer part */
     footer {
         text-align: center;
         width: 450px;
         margin: 0 auto;
-        margin-top: 2em;
+        margin-top: 1em;
     }
     
+    /* Github octopus logo: invert the default color */
     footer #github{
         filter: invert(1);
     }
     
+    /* footer text style */
     footer #support {
         font-family: 'Pangolin';
         color: #b9bbbf;
         font-size: 1em;
     }
     
+    /* inkdLab anchor link */
     footer #support a {
         color: #c12b11;
     }
