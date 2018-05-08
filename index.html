@@ -12,24 +12,45 @@
 
     <!-- Story file -->
     <link rel="import" href="my_story.html">
+    
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Pangolin|Skranji" rel="stylesheet">
 
     <title>Hello, there..?</title>
 
 </head>
 
 <body>
-    <inkd-ml>
-        <!--inkd-cyoa HOLDS THE STORY. YOU DON'T NEED TO CHANGE
-        THIS NAME UNLESS YOU ARE COMBINING MULTIPLE STORIES
-        INTO ONE BIGGER PROJECT-->
-        <inkd-cyoa name="main">
-            
-            <!--DEFAULT inkd-include. YOU CAN CHANGE
-                THIS IF YOU WANT. THE NAME MUST MATCH
-                THE inkd-content name THAT HOLDS YOUR STORY NODES.-->
-            <inkd-include content="nodes"></inkd-include>
-        </inkd-cyoa>
-    </inkd-ml>
+    <main>
+        <inkd-ml>
+            <div id="statusBar"><span id="service">Telenor</span>
+                <div id="logoBar">
+                    <img src="images/battery_icon.png" class="icon">
+                    <img src="images/signal_icon.png" class="icon">
+                    <img src="images/wifi_icon.png" class="icon">
+                    <img src="images/clock_icon.png" class="icon">
+                    <img src="images/vibrate_icon.png" class="icon">
+                </div>
+
+            </div>
+            <div id="numberBar"></div>
+
+
+
+            <!--inkd-cyoa HOLDS THE STORY -->
+            <inkd-cyoa name="main">
+
+                <!--DEFAULT inkd-include -->
+                <inkd-include content="nodes"></inkd-include>
+            </inkd-cyoa>
+        </inkd-ml>
+    </main>
+
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>
