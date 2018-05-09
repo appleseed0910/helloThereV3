@@ -8,15 +8,25 @@
 <inkd-content name="nodes">
 
 
-    <inkd-node name="node1" start>
+    <inkd-node name="n00" start set-prop="trigger = false" start-timer="countdown" start-timer="test">
 
-        
-        <p>You are in Node 1.</p>
+        <inkd-box animation="fadeInUp:1s:1">
+            <inkd-timer name="countdown" duration="1s" play-audio="message" set-prop="trigger = true"></inkd-timer>
+            <p class="time">10:11 PM</p>
+            <p class="messageContent">Hello, there..?<br> <br> <br> <br><br> <br> <br> <br></p>
+        </inkd-box>
 
-        
-        <inkd-button goto="node2">Go to Node 2</inkd-button>
 
-        <inkd-button goto="node3">Go to Node 3</inkd-button>
+        <inkd-if rule="trigger == true">
+            <inkd-box animation="fadeIn:1s:1">
+                <div class="optionArea">
+                    <inkd-button goto="N01">...What?</inkd-button>
+                </div>
+            </inkd-box>
+        </inkd-if>
+
+
+
 
     </inkd-node>
 

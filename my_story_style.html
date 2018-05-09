@@ -67,6 +67,8 @@
     
     
     #phoneNumber {
+        margin-top: 3px;
+        width: 100%;
         background-color: #738E91;
         border: 1px solid #DEDEDE;
         border-radius: 3px;
@@ -74,8 +76,8 @@
         font-size: 2em;
         font-family: 'Pangolin';
         color: #DEDEDE;
-        text-align: center;
-        padding:0 5em;
+        text-align: right;
+        align-content: center;
     }
     
     
@@ -84,7 +86,66 @@
     
     inkd-node {
         background-color: #DEDEDE;
-        height: 20em;
+        height: 25em;
+        width: auto;
+        margin: 0 auto;
+        
+    }
+    
+    inkd-box {
+        width: 100%;
+        margin-top: .5em;
+    }
+    
+    .time {
+        font-size: 0.3em;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 0.2em;
+        margin-bottom: .2em;
+        color: #676768;
+        font-family: 'Pangolin';
+    }
+    
+    inkd-box .messageContent {
+        /* https://www.w3schools.com/css/css_tooltip.asp left-arrow */
+        margin-top: 0;
+        font-family: 'Noto Sans';
+        font-size: .75em;
+        line-height: 1.25;
+        background: #f2fbfc;
+        color: #000;
+        border-radius: 4px;
+        pointer-events: none;
+        opacity: .7;
+        padding: .8em;
+    }
+    
+    .optionArea {
+        position: fixed;
+        bottom: 15em;
+        text-align: center;
+        width: 5em;
+        height: 2em;
+        font-size: 0.8em;
+        background-color: #AED8DD;
+        border-radius: 5px;
+    }
+
+    .optionArea:hover {
+        background-color: #15a9bb;
+        color: aliceblue;
+        cursor: pointer;
+    }
+    
+    inkd-button {
+        background-color: transparent;
+        border: none;
+    }
+
+    inkd-button:hover {
+        background-color: transparent;
+        border: none;
     }
     
     
