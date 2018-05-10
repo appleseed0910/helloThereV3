@@ -1,0 +1,27 @@
+/* 
+    Options Positions Controlling Stylesheet
+
+    Notice:
+    
+    a. This Stylesheet is for managing DIFFERENT positions of options
+        on each node.
+    b. Be careful reading the button number before doing any edits.
+
+    c. Naming protocool
+        -"#op001" means "n001"'s option
+        -"#op002a" "#op002b" mean "n002"'s first and second options
+
+ */
+
+inkd-button#op001 {
+        top: 22em;
+    }
+
+inkd-button#op002a {
+        top: 3em;
+    }
+
+inkd-button#op002b {
+        top: 3em;
+    }
+    

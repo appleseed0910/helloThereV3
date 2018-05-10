@@ -2,20 +2,22 @@
 
 
 <style is="custom-style">
-    
     /* Clear the default style */
+
     * {
         margin: 0;
         padding: 0;
         color: black;
     }
-    
+
     /* Page background color */
+
     body {
         background-color: #212121;
     }
-    
+
     /* The "phone" interface part */
+
     main {
         width: 450px;
         margin: 0 auto;
@@ -24,8 +26,9 @@
         border: 5px solid #DEDEDE;
         border-radius: 5px;
     }
-    
+
     /* Phone status Bar */
+
     main #statusBar {
         margin: 0 auto;
         height: 25px;
@@ -35,8 +38,9 @@
         border-radius: 2px;
         border-bottom: none;
     }
-    
+
     /* Phone status bar logo container */
+
     main #statusBar #logoBar {
         position: relative;
         top: -1.3em;
@@ -44,8 +48,9 @@
         margin-right: .2em;
         background-color: #AED8DD;
     }
-    
+
     /* Phone status bar logos */
+
     main #statusBar #logoBar .icon {
         display: inline;
         float: right;
@@ -53,19 +58,19 @@
         height: 1.3em;
         widows: 1.3em;
     }
-    
+
     /* Phone status bar service text -- 'Telenor' */
+
     main #statusBar #service {
         padding-left: 0.35em;
         padding-bottom: 0.2em;
         font-size: 1em;
         font-family: 'Pangolin';
     }
-    
-    
+
+
     /*------- D  -  I  -  V  -  I  -  D  -  E ------------*/
-    
-    
+
     #phoneNumber {
         margin-top: 3px;
         width: 100%;
@@ -79,27 +84,30 @@
         text-align: right;
         align-content: center;
     }
-    
-    
-    
+
+
+
     /*------- D  -  I  -  V  -  I  -  D  -  E ------------*/
-    
+
     /* Node box style */
+
     inkd-node {
         background-color: #DEDEDE;
         height: 25em;
         width: auto;
         margin: 0 auto;
-        
+
     }
-    
+
     /* This is ACTUAL dialog cloud */
+
     inkd-box {
         width: 100%;
         margin-top: .5em;
     }
-    
+
     /* Time text style */
+
     .time {
         font-size: 0.3em;
         font-weight: bold;
@@ -110,8 +118,9 @@
         color: #676768;
         font-family: 'Pangolin';
     }
-    
+
     /* Message text style */
+
     inkd-box .messageContent {
         /* https://www.w3schools.com/css/css_tooltip.asp left-arrow */
         margin-top: 0;
@@ -125,17 +134,22 @@
         opacity: .7;
         padding: .8em;
     }
-    
+
     inkd-box .context {
         font-family: 'Pangolin';
         text-align: center;
-        color: #0b0d70;
-        margin-top: .5em;
-        margin-bottom: .5em;
-        filter: blur(.5px);
+        color: #646577;
+        margin-top: .3em;
+        margin-bottom: .3em;
+        filter: blur(.3px);
+        opacity: .6;
+        font-size: .8em;
+        padding: .4em;
+
     }
-    
+
     /* General button style */
+
     inkd-button {
         position: relative;
         text-align: center;
@@ -149,10 +163,11 @@
         padding-top: .5em;
         color: #595a5b;
     }
-    
+
     /* General button style : hover */
+
     inkd-button:hover {
-        width:99% ;
+        width: 99%;
         margin: 0 auto;
         background-color: #15a9bb;
         color: aliceblue;
@@ -160,54 +175,49 @@
         border: .1em dashed #AED8DD;
         height: 1.9em;
     }
-    
+
     /* General button style : visted */
+
     /* This is for players to know which option they already chose */
-    inkd-button:visited{
-        
-    }
-    
+
+    inkd-button:visited {}
+
     /*------- D  -  I  -  V  -  I  -  D  -  E ------------*/
-    
-    
-    /* Set up different position of options for each node */
-    
-    inkd-button#op001 {
-        top: 22em;
-    }
-    
-    /*------- D  -  I  -  V  -  I  -  D  -  E ------------*/
-    
+
     /* General footer part */
+
     footer {
         text-align: center;
         width: 450px;
         margin: 0 auto;
         margin-top: 1em;
     }
-    
+
     /* Github octopus logo: invert the default color */
-    footer #github{
+
+    footer #github {
         filter: invert(1);
     }
-    
+
     /* footer text style */
+
     footer #support {
         font-family: 'Pangolin';
         color: #b9bbbf;
         font-size: 1em;
     }
-    
+
     /* inkdLab anchor link */
+
     footer #support a {
         color: #c12b11;
     }
-    
+
     footer #support a:hover {
         color: #ffffff;
     }
-    
-    footer #support a:visited {
+
+    footer #support a:active {
         color: #8c0b0b;
     }
 
