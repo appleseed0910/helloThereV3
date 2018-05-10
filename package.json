@@ -1,0 +1,22 @@
+{
+  "name": "hellotherev3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appleseed0910/helloThereV3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appleseed0910/helloThereV3/issues"
+  },
+  "homepage": "https://github.com/appleseed0910/helloThereV3#readme",
+  "dependencies": {
+    "howler": "^2.0.12"
+  }
+}
