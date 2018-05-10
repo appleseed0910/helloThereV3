@@ -84,6 +84,7 @@
     
     /*------- D  -  I  -  V  -  I  -  D  -  E ------------*/
     
+    /* Node box style */
     inkd-node {
         background-color: #DEDEDE;
         height: 25em;
@@ -92,13 +93,16 @@
         
     }
     
+    /* This is ACTUAL dialog cloud */
     inkd-box {
         width: 100%;
         margin-top: .5em;
     }
     
+    /* Time text style */
     .time {
         font-size: 0.3em;
+        font-weight: bold;
         text-align: center;
         margin-bottom: 0;
         padding-bottom: 0.2em;
@@ -107,6 +111,7 @@
         font-family: 'Pangolin';
     }
     
+    /* Message text style */
     inkd-box .messageContent {
         /* https://www.w3schools.com/css/css_tooltip.asp left-arrow */
         margin-top: 0;
@@ -121,33 +126,55 @@
         padding: .8em;
     }
     
-    .optionArea {
-        position: fixed;
-        bottom: 15em;
+    inkd-box .context {
+        font-family: 'Pangolin';
         text-align: center;
-        width: 5em;
+        color: #0b0d70;
+        margin-top: .5em;
+        margin-bottom: .5em;
+        filter: blur(.5px);
+    }
+    
+    /* General button style */
+    inkd-button {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
         height: 2em;
         font-size: 0.8em;
         background-color: #AED8DD;
         border-radius: 5px;
+        border: none;
+        padding-top: .5em;
+        color: #595a5b;
     }
-
-    .optionArea:hover {
+    
+    /* General button style : hover */
+    inkd-button:hover {
+        width:99% ;
+        margin: 0 auto;
         background-color: #15a9bb;
         color: aliceblue;
         cursor: pointer;
+        border: .1em dashed #AED8DD;
+        height: 1.9em;
     }
     
-    inkd-button {
-        background-color: transparent;
-        border: none;
-    }
-
-    inkd-button:hover {
-        background-color: transparent;
-        border: none;
+    /* General button style : visted */
+    /* This is for players to know which option they already chose */
+    inkd-button:visited{
+        
     }
     
+    /*------- D  -  I  -  V  -  I  -  D  -  E ------------*/
+    
+    
+    /* Set up different position of options for each node */
+    
+    inkd-button#op001 {
+        top: 22em;
+    }
     
     /*------- D  -  I  -  V  -  I  -  D  -  E ------------*/
     
@@ -180,7 +207,7 @@
         color: #ffffff;
     }
     
-    footer #support a:active {
+    footer #support a:visited {
         color: #8c0b0b;
     }
 

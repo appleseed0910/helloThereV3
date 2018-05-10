@@ -7,36 +7,42 @@
 
 <inkd-content name="nodes">
 
-
-    <inkd-node name="n00" start set-prop="trigger = false" start-timer="countdown" start-timer="test">
-
+    <!-- n000/start node -->
+    <inkd-node name="n000" start set-prop="trigger = false" start-timer="countdown">
+        
         <inkd-box animation="fadeInUp:1s:1">
-            <inkd-timer name="countdown" duration="1s" play-audio="message" set-prop="trigger = true"></inkd-timer>
+            <inkd-timer name="countdown" duration="0s" play-audio="message"></inkd-timer>
             <p class="time">10:11 PM</p>
-            <p class="messageContent">Hello, there..?<br> <br> <br> <br><br> <br> <br> <br></p>
+            <p class="messageContent">Hello, there..?</p>
+        </inkd-box>
+        <inkd-box animation="wait:1.5s, fadeIn:1s:1">
+            <inkd-button goto="n001" id="op001">...What?</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n001 -->
+    <inkd-node name="n001">
+        <inkd-box>
+            <div ></div>
+            <p class="context">You notice that weak glow, you didn't rapidly take your phone and unlock it. Few seconds after, your phone fells asleep again, only the signal light sparkles like a green light on a dock.</p>
+        </inkd-box>
+        
+        <inkd-box>
+            <p class="context">What's that text?<br>The screen lights up again.</p>
+        </inkd-box>
+
+        <inkd-box>
+            <p class="time">10:13 PM</p>
+            <p class="messageContent">"R u there? Cecile"</p>
+        </inkd-box>
+        
+        <inkd-box>
+        <inkd-button></inkd-button>
+        <inkd-button></inkd-button>
         </inkd-box>
 
 
-        <inkd-if rule="trigger == true">
-            <inkd-box animation="fadeIn:1s:1">
-                <div class="optionArea">
-                    <inkd-button goto="N01">...What?</inkd-button>
-                </div>
-            </inkd-box>
-        </inkd-if>
 
-
-
-
-    </inkd-node>
-
-    <inkd-node name="node2">
-        <p>You are in Node 2.</p>
-
-
-        <inkd-action style="color:green" goto="node1">Go to Node 1</inkd-action>
-
-        <inkd-action style="color:red" goto="node3">Go to Node 3</inkd-action>
     </inkd-node>
 
     <inkd-node name="node3">
