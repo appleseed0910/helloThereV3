@@ -8,40 +8,43 @@
 <inkd-content name="nodes">
 
     <!-- n000/start node -->
-    <inkd-node name="n000" start set-prop="trigger = false" start-timer="countdown">
+    <inkd-node name="n000" start set-prop="trigger = false" start-timer="countdown000">
         
         <inkd-box animation="fadeInUp:1s:1">
-            <inkd-timer name="countdown" duration="0s" play-audio="message"></inkd-timer>
+            <inkd-timer name="countdown000" duration="0s" play-audio="message"></inkd-timer>
             <p class="time">10:11 PM</p>
             <p class="messageContent">Hello, there..?</p>
         </inkd-box>
+        
+        
         <inkd-box animation="wait:1.5s, fadeIn:1s:1">
-            <inkd-button goto="n001" id="op001">...What?</inkd-button>
+            <inkd-button goto="n001" id="op001" play-audio="button">...What?</inkd-button>
         </inkd-box>
     </inkd-node>
 
     <!-- n001 -->
-    <inkd-node name="n001">
-        <inkd-box animation="wait:1s, fadeInUp:1s:1">
-            <p class="context">You notice that weak glow, you didn't rapidly take your phone and unlock it. Few seconds after, your phone fells asleep again, only the signal light sparkles like a green light on a dock.</p>
+    <inkd-node name="n001" start-timer="countdown001">
+        <inkd-box animation="wait:.5s, fadeInUp:1s:1">
+            <p class="context">You notice that weak glow, you didn't rapidly take your phone and unlock it. </p>
         </inkd-box>
         
         <inkd-box animation="wait:2s, fadeInUp:1s:1">
             <p class="context">Few seconds after, your phone fells asleep again, only the signal light sparkles like a green light on a dock.</p>
         </inkd-box>
         
-        <inkd-box animation="wait:3s, fadeInUp:1s:1">
+        <inkd-box animation="wait:3.5s, fadeInUp:1s:1">
             <p class="context">What's that text?<br>The screen lights up again.</p>
         </inkd-box>
 
-        <inkd-box animation="wait:4s, fadeInDown:1s:1">
+        <inkd-box animation="wait:5s, fadeInDown:1s:1">
+            <inkd-timer name="countdown001" duration="5000ms" play-audio="message"></inkd-timer>
             <p class="time">10:13 PM</p>
             <p class="messageContent">"R u there? Cecile"</p>
         </inkd-box>
         
-        <inkd-box animation="wait:5s, fadeIn:1s:1">
-        <inkd-button goto="n002" id="op002a">Wow, the guy knows my name</inkd-button>
-        <inkd-button goto="n003" id="op002b">...junk text?</inkd-button>
+        <inkd-box animation="wait:6s, fadeIn:1s:1">
+        <inkd-button goto="n002" id="op002a" play-audio="button">Wow, the guy knows my name</inkd-button>
+        <inkd-button goto="n003" id="op002b" play-audio="button">...junk text?</inkd-button>
         </inkd-box>
 
 

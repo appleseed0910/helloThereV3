@@ -15,3 +15,13 @@
 ## TODO:
 
 SOUND EFFECT!!!!!
+
+---
+
+5.12 Update:
+
+. adjust [context] style
+
+. add button click sound effect
+
+. some other tiny adjustments
