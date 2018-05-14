@@ -5,20 +5,34 @@
     LOADS THE inkd-content WITH THE MATCHING name PROPERTY.
 -->
 
+
+<!--
+    NODE Tamplet for the project "helloThere" -- May 13 2018
+    To write a new node:
+
+        a. node name should be in "n000", replace the "000" with number
+        b. must start a timer named "countdown000", replace the number
+        c. [message][context][option] are all wrapped in <inkd-box>
+            [message] - animation: fadeInUp
+            [context] - animation: fadeInUp
+            [option]  - animation: fadeIn 
+                      - buttion: play-audio
+        d. must add approperriate comments for each node
+-->
+
 <inkd-content name="nodes">
 
     <!-- n000/start node -->
     <inkd-node name="n000" start set-prop="trigger = false" start-timer="countdown000">
-        
         <inkd-box animation="fadeInUp:1s:1">
             <inkd-timer name="countdown000" duration="0s" play-audio="message"></inkd-timer>
             <p class="time">10:11 PM</p>
             <p class="messageContent">Hello, there..?</p>
         </inkd-box>
-        
-        
+
+
         <inkd-box animation="wait:1.5s, fadeIn:1s:1">
-            <inkd-button goto="n001" id="op001" play-audio="button">...What?</inkd-button>
+            <inkd-button goto="n001" id="op000" play-audio="button">...What?</inkd-button>
         </inkd-box>
     </inkd-node>
 
@@ -27,37 +41,64 @@
         <inkd-box animation="wait:.5s, fadeInUp:1s:1">
             <p class="context">You notice that weak glow, you didn't rapidly take your phone and unlock it. </p>
         </inkd-box>
-        
+
         <inkd-box animation="wait:2s, fadeInUp:1s:1">
             <p class="context">Few seconds after, your phone fells asleep again, only the signal light sparkles like a green light on a dock.</p>
         </inkd-box>
-        
+
         <inkd-box animation="wait:3.5s, fadeInUp:1s:1">
             <p class="context">What's that text?<br>The screen lights up again.</p>
         </inkd-box>
 
-        <inkd-box animation="wait:5s, fadeInDown:1s:1">
+        <inkd-box animation="wait:5s, fadeInUp:1s:1">
             <inkd-timer name="countdown001" duration="5000ms" play-audio="message"></inkd-timer>
             <p class="time">10:13 PM</p>
-            <p class="messageContent">"R u there? Cecile"</p>
+            <p class="messageContent">R u there? Cecile</p>
         </inkd-box>
-        
+
         <inkd-box animation="wait:6s, fadeIn:1s:1">
-        <inkd-button goto="n002" id="op002a" play-audio="button">Wow, the guy knows my name</inkd-button>
-        <inkd-button goto="n003" id="op002b" play-audio="button">...junk text?</inkd-button>
+            <inkd-button goto="n002" id="op001a" play-audio="button">Wow, the guy knows my name</inkd-button>
+            <inkd-button goto="n003" id="op001b" play-audio="button">...junk text?</inkd-button>
         </inkd-box>
-
-
-
     </inkd-node>
 
-    <inkd-node name="node3">
-        <p>You are in Node 3.</p>
+    <!-- n002 -->
+    <inkd-node name="n002" start-timer="countdown002">
+        <inkd-box animation="wait:.5s, fadeInUp:1s:1">
+            <p class="context">Who is this guy?<br>He or she knows your name and phone number, and even probably is sending text to you.</p>
+        </inkd-box>
+        
+        <inkd-box animation="wait:2s, fadeInUp:1s:1">
+            <p class="context">You actually seldom use phone number for connecting.<br>Emails fly everywhere over clouds.<br>If something urgent, you'll make a call. Who is still typing a text to you, and for what?</p>
+        </inkd-box>
+        
+        <inkd-box animation="wait:3.5s, fadeInUp:1s:1">
+            <p class="context">The mystery pulls you back from your homework. <br>Somehow, you start expecting the text could come again.</p>
+        </inkd-box>
+        
+        <inkd-box animation="wait:5s, fadeInUp:1s:1">
+            <inkd-timer name="countdown001" duration="5000ms" play-audio="message"></inkd-timer>
+            <p class="time">10:16 PM</p>
+            <p class="messageContent">I want to speak to you, Cecile</p>
+        </inkd-box>
+        
+        <inkd-box animation="wait:5.5s, fadeInUp:1s:1">
+            <p class="context">And it surely does as you want.</p>
+        </inkd-box>
+        
+        <inkd-box animation="wait:6s, fadeInUp:1s:1">
+            <p class="time">10:17 PM</p>
+            <p class="messageContent">Oh! Before that, almost forget. Happy Birthday! Cecile</p>
+        </inkd-box>
+        
+        <inkd-box animation="wait:6.5s, fadeInUp:1s:1">
+            <p class="context">An extra new notification pops up when you stare at the last one.</p>
+        </inkd-box>
+        
+        <inkd-box animation="wait:7.5s, fadeIn:1s:1">
+            <inkd-button goto="n006" id="op002" play-audio="button">Surprised but not that bad.</inkd-button>
+        </inkd-box>
 
-
-        <inkd-action class="green-box" goto="node1">Go to Node 1</inkd-action>
-
-        <inkd-button class="green-box" goto="node2">Go to Node 2</inkd-button>
 
     </inkd-node>
 

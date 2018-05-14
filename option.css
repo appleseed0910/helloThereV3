@@ -13,15 +13,19 @@
 
  */
 
-inkd-button#op001 {
+inkd-button#op000 {
         top: 22em;
     }
 
-inkd-button#op002a {
+inkd-button#op001a {
         top: 7em;
     }
 
-inkd-button#op002b {
+inkd-button#op001b {
         top: 7em;
+    }
+
+inkd-button#op002 {
+        top: 4em;
     }
     
