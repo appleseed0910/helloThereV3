@@ -25,3 +25,18 @@ SOUND EFFECT!!!!!
 . add button click sound effect
 
 . some other tiny adjustments
+
+
+---
+
+5.13 Update:
+
+. sort and clean the node naming and formatting protocool
+
+. try to add a long original node from twine project/
+  
+  but it seems too long, might need re-number the node names
+  
+---
+
+maybe it's better to work continuously rather than time by time.
