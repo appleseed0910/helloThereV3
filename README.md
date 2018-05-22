@@ -14,7 +14,14 @@
 
 ## TODO:
 
-SOUND EFFECT!!!!!
+.transition on button
+
+.add raining sound effect[secondary]
+
+.tiny flaw: button-control, before emerging, cursor would imply the existence of the button [unperfectly improved by change cursor to default]
+
+.style for special terms [emphasize] [-system-]
+
 
 ---
 
@@ -39,4 +46,6 @@ SOUND EFFECT!!!!!
   
 ---
 
-maybe it's better to work continuously rather than time by time.
+5.22 Update:
+
+. Completed until n008; re-organized the number of all nodes [The shortest story line done];
