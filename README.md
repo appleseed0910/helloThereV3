@@ -22,6 +22,10 @@
 
 .style for special terms [emphasize] [-system-]
 
+.distinguish style for all the <Start Over> buttons
+    
+.I want to add some box shadow to make the feelings of layers
+
 
 ---
 
@@ -49,3 +53,10 @@
 5.22 Update:
 
 . Completed until n008; re-organized the number of all nodes [The shortest story line done];
+
+. my laptop keeps the EST time now I'm in the morning in China(5.23) but still in USA(5.22)
+
+. Fine, follow github's time record, still update here
+
+. Done until n027, another bad ending story line finished
+
