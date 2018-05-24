@@ -23,11 +23,11 @@
 <inkd-content name="nodes">
 
     <!-- n000/start node -->
-    <inkd-node name="n000" start set-prop="trigger = false" start-timer="countdown000">
+    <inkd-node name="n000" start start-timer="countdown000">
         <inkd-box animation="fadeInUp:1s:1">
             <inkd-timer name="countdown000" duration="0s" play-audio="message"></inkd-timer>
             <p class="time">10:11 PM</p>
-            <p class="messageContent">Hello, there..?</p>
+            <p class="messageContent">Hello, there..</p>
         </inkd-box>
 
 
@@ -668,21 +668,112 @@
         <inkd-box animation="wait:5.6s, fadeInUp:1s:1">
             <p class="context">Maybe one day you'll get suffered from trying to find someone but failed<br>just like what happened to that stranger last night, won't you? (karma)</p>
         </inkd-box>
-        
+
         <inkd-box animation="wait:6.7s, fadeInUp:1s:1">
             <p class="context">Your intuition says so.</p>
         </inkd-box>
-        
+
         <inkd-box animation="wait:7.8s, fadeInUp:1s:1">
             <p class="context">Who knows...(and who cares)</p>
         </inkd-box>
-        
+
         <inkd-box animation="wait:9.2s, fadeInUp:1s:1">
             <p class="context">What would you do,<br>if you have the second chance to know him/her?</p>
         </inkd-box>
-        
+
         <inkd-box animation="wait:10.6s, fadeIn:1s:1">
             <inkd-button goto="n000" id="op027" play-audio="button">&lt;Start Over&gt;</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n028 -->
+    <inkd-node name="n028" start-timer="countdown028">
+        <inkd-box animation="fadeInUp:1s:1">
+            <inkd-timer name="countdown028" duration="0s" play-audio="message"></inkd-timer>
+            <p class="time">11:54 PM</p>
+            <p class="messageContent">Cecile, maybe you're not there.<br>Maybe it's just another failed experiment,<br>I don't care now. Because I wouldn't participate the next one,<br>so, it doesn't matter with me.<br><br>Funny thing is,<br>even though I know there's probably no one listening to me,<br>I still keep talking like you are just in front of me.<br><br>If you're there, if you could read this message,<br>I must apologize that I still cannot tell you who I am,<br>what these messages for and where them come from...<br>I signed the contract, I don't intend to violate it.<br><br>But it actually doesn't matter,<br>you could take a guess about my identity.<br>As smart as you, the answer is not quite difficult.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeIn:1s:1">
+            <inkd-button goto="n029" id="op028" play-audio="button">...What?</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n029 -->
+    <inkd-node name="n029" start-timer="countdown029">
+        <inkd-box animation="fadeInUp:1s:1">
+            <p class="messageContent">Do you believe that butterfly effect?<br>I know it may sound exagerrated and too sci-fi for you, right?<br><br>I don't know where I should start.<br>Because I know whatever I tell you not to do,<br>you will go have a try. That's you, I know you.<br><br>So do I.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeIn:1s:1">
+            <inkd-button goto="n030" id="op029" play-audio="button">Go ahead</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n030 -->
+    <inkd-node name="n030" start-timer="countdown030">
+        <inkd-box animation="fadeInUp:1s:1">
+            <p class="messageContent">However, you'll get hurt, and someone else involved deeply.<br>You may not take my warning seriously now.<br> But... you'll know how I get to this place,<br>how I became this desperate and painful.<br><br>I'm still alive, but lost the important component of my heart.<br>Like a Tin man.<br><br>But...I can't tell whether I am only feeling regretful.<br>I mean, actually before I attended this experiment, I supposed I was.<br>The only desire and hope of my life, is...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeIn:1s:1">
+            <inkd-button goto="n031" id="op030" play-audio="button">...?</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n031 -->
+    <inkd-node name="n031" start-timer="countdown031">
+        <inkd-box animation="fadeInUp:1s:1">
+            <p class="messageContent">to find you.<br><br>Somehow, I, when I found that I cannot find you.<br>I felt relaxed and reliefed a lot.<br><br>A little disappointed as well...<br><br>Oh, of course I'm not disappointed by you, but by myself.<br>Well, it's tricky to say.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeIn:1s:1">
+            <inkd-button goto="n032" id="op031" play-audio="button">(what kind of conversation here it is?)</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n032 -->
+    <inkd-node name="n032" start-timer="countdown032">
+        <inkd-box animation="fadeInUp:1s:1">
+            <p class="messageContent">Anyway, this is the ending.<br>I accept it.<br><br>I don't regret that my life had been changed so much because of one person.<br>I don't regret everything happened ever,<br><br>even though they became... shards that hurts me to die.<br><br>I know you won't, either.<br>Someday soon, you may recall what I've said to you.<br>I believe you'll know what I mean.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeIn:1s:1">
+            <inkd-button goto="n033" id="op032" play-audio="button">Rea-lly..?</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n033 -->
+    <inkd-node name="n033" start-timer="countdown033">
+        <inkd-box animation="fadeInUp:1s:1">
+            <p class="messageContent">Then, I see you.<br>Happy Birthday, my dearest Cecile.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2s, fadeIn:1s:1">
+            <inkd-button goto="n034" id="op033" play-audio="button">It ends here...</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n034 -->
+    <inkd-node name="n034" start-timer="countdown034">
+        <inkd-box animation="wait:1.2s, fadeInUp:1s:1">
+            <p class="context">...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3s, fadeInUp:1s:1">
+            <p class="context">What does this letter mean??<br>You tried to answer back, the number is invalid.<br>Like it said, the encounter ends here?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4.7s, fadeInUp:1s:1">
+            <p class="context">But as she(you think it's her) said,<br>you'll meet soon or something else like that may happen?<br>The mystery gets much bigger now.<br>However, you've already lost the chance to know more...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.8s, fadeInUp:1s:1">
+            <p class="context">If you have the second chance,<br>what would you do?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:8.7s, fadeIn:1s:1">
+            <inkd-button goto="n000" id="op034" play-audio="button">&lt;Start Over&gt;</inkd-button>
         </inkd-box>
     </inkd-node>
 
