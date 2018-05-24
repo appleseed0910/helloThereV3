@@ -14,6 +14,22 @@
 
 ## TODO:
 
+. add sent sound effect 
+
+.!important: GO DELETE ALL THE TIMERS THAT INSIDE THE NODES THAT DON'T USE THEM => DONE
+
+. would it better to use italic Georgia on sent-option or sent-message? [keep it default temporary] => DONE
+
+.A new style (dialog frame) for the message(sent) and option(sent) 
+
+.learn more about using ::before ::after drawing tooltip
+
+(https://www.yinchengli.com/2016/10/22/css-triangle/
+
+https://codepen.io/team/css-tricks/pen/RPmpYa
+
+https://css-tricks.com/examples/ShapesOfCSS/)
+
 .transition on button
 
 .add raining sound effect[secondary]
@@ -22,7 +38,7 @@
 
 .style for special terms [emphasize] [-system-]
 
-.distinguish style for all the <Start Over> buttons
+.distinguish style for all the <Start Over> buttons (special option)
     
 .I want to add some box shadow to make the feelings of layers
 
@@ -60,3 +76,12 @@
 
 . Done until n027, another bad ending story line finished
 
+---
+
+5.23 Update:
+
+. Done until n034/ another bad ending[why I wrote so many]
+
+. Add new style class as "optionSent"
+
+. Delete all invaild timer syntax to reduce the console errors
