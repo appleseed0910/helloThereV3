@@ -30,7 +30,7 @@ https://codepen.io/team/css-tricks/pen/RPmpYa
 
 https://css-tricks.com/examples/ShapesOfCSS/)
 
-.transition on button
+.transition on button [DONE]
 
 .add raining sound effect[secondary]
 
@@ -80,7 +80,7 @@ https://css-tricks.com/examples/ShapesOfCSS/)
 
 5.23 Update:
 
-. Done until n034/ another bad ending[why I wrote so many]
+. Done until n034/ another bad ending[why did I write so many]
 
 . Add new style class as "optionSent"
 

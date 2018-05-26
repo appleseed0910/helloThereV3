@@ -779,7 +779,6 @@
 
     <!-- n035 -->
     <inkd-node name="n035">
-
         <inkd-box animation="wait:1.5s, fadeInUp:1s:1">
             <p class="context">At least, this guy is the precious one of the people who said greetings to you.</p>
         </inkd-box>
@@ -791,13 +790,49 @@
         <inkd-box animation="wait:5.4s, fadeInUp:1s:1">
             <p class="context">Even if you find something wrong, you can stop the connection.<br> You'll still refuse to answer the call if he/she asks for.</p>
         </inkd-box>
-        
+
         <inkd-box animation="wait:5.4s, fadeInUp:1s:1">
             <p class="context">But now, you just want to say thanks.</p>
         </inkd-box>
-        
+
         <inkd-box animation="wait:7s, fadeIn:1s:1">
             <inkd-button class="optionSent" goto="n036" id="op035" play-audio="button">"Thank you."</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n036 -->
+    <inkd-node name="n036" start-timer="countdown036">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <inkd-timer name="countdown036" duration="0ms" play-audio="message"></inkd-timer>
+            <p class="time">10:30 PM</p>
+            <p class="messageContent">!!?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="time">10:30 PM</p>
+            <p class="messageContent">Cecile?! Ar u there now?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5.5s, fadeInUp:1s:1">
+            <p class="context">Just few seconds after you replied the text. <br>Seems the guy is holding his/her phone somewhere and looking forward your message.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5.5s, fadeInUp:1s:1">
+            <p class="context">Holy crap.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5.5s, fadeInUp:1s:1">
+            <p class="context">Now you barely can escape with a reasonable excuse.<br>Ok, you guessed this was one possibility.<br>You gotta to deal with this step by step.</p>
+        </inkd-box>
+        
+        <inkd-box animation="wait:5.5s, fadeInUp:1s:1">
+            <p class="context">But you still won't answer any calls.(Bottom line)</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7s, fadeIn:1s:1">
+            <inkd-button goto="n017" class="optionSent" id="op016" play-audio="button">...(zzZZzz)?...</inkd-button>
+            <inkd-button goto="n017" class="optionSent" id="op016" play-audio="button">...(zzZZzz)?...</inkd-button>
         </inkd-box>
     </inkd-node>
 
