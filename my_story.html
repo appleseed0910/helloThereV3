@@ -57,7 +57,7 @@
         </inkd-box>
 
         <inkd-box animation="wait:6s, fadeIn:1s:1">
-            <inkd-button goto="" id="op001a" play-audio="button">Wow, the guy knows my name</inkd-button>
+            <inkd-button goto="n067" id="op001a" play-audio="button">Wow, the guy knows my name</inkd-button>
             <inkd-button goto="n002" id="op001b" play-audio="button">...junk text?</inkd-button>
         </inkd-box>
     </inkd-node>
@@ -825,16 +825,854 @@
         <inkd-box animation="wait:5.5s, fadeInUp:1s:1">
             <p class="context">Now you barely can escape with a reasonable excuse.<br>Ok, you guessed this was one possibility.<br>You gotta to deal with this step by step.</p>
         </inkd-box>
-        
+
         <inkd-box animation="wait:5.5s, fadeInUp:1s:1">
             <p class="context">But you still won't answer any calls.(Bottom line)</p>
         </inkd-box>
 
         <inkd-box animation="wait:7s, fadeIn:1s:1">
-            <inkd-button goto="n017" class="optionSent" id="op016" play-audio="button">...(zzZZzz)?...</inkd-button>
-            <inkd-button goto="n017" class="optionSent" id="op016" play-audio="button">...(zzZZzz)?...</inkd-button>
+            <inkd-button goto="n037" class="optionSent" id="op036a" play-audio="button">"Yes, it's me."</inkd-button>
+            <inkd-button goto="n051" class="optionSent" id="op036b" play-audio="button">"May I have your name plz"</inkd-button>
         </inkd-box>
     </inkd-node>
+
+    <!-- n037 -->
+    <inkd-node name="n037" start-timer="countdown037">
+
+        <inkd-box animation="wait:1s, fadeInUp:1s:1">
+            <p class="context">You admit the fact.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.8s, fadeInUp:1s:1">
+            <inkd-timer name="countdown037" duration="1800ms" play-audio="message"></inkd-timer>
+            <p class="time">10:35 PM</p>
+            <p class="messageContent">So being blessed the God lets me find you.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3s, fadeInUp:1s:1">
+            <p class="context">Wow, is this so important to him/her?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4s, fadeInUp:1s:1">
+            <p class="time">10:39 PM</p>
+            <p class="messageContent">No, I mean, because today is your birthday,<br>and we barely have time left,<br>it's going to be the other day very soon.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4.5s, fadeInUp:1s:1">
+            <p class="time">10:40 PM</p>
+            <p class="messageContent">So, that's why I said like that.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeInUp:1s:1">
+            <p class="context">Just like she reads your mind about the suspicion.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7s, fadeIn:1s:1">
+            <inkd-button goto="n037" id="op037a" play-audio="button">Well then...</inkd-button>
+            <inkd-button goto="n038" id="op037b" play-audio="button">It makes sense but...</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n038 -->
+    <inkd-node name="n038">
+
+        <inkd-box animation="wait:1s, fadeInUp:1s:1">
+            <p class="context">...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.5s, fadeInUp:1s:1">
+            <p class="context">You still feel the reason he/she provided is far-fetched.<br>The exsitence of this stranger and the messages make you feel insecure.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3.8s, fadeInUp:1s:1">
+            <p class="context">You gotta make a decision.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeIn:1s:1">
+            <inkd-button goto="n037" id="op038a" play-audio="button">Trust him/her.</inkd-button>
+            <inkd-button goto="n039" id="op038b" play-audio="button">Don't trust him/her.</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n039 -->
+    <inkd-node name="n039" start-timer="countdown039">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <inkd-timer name="countdown039" duration="0ms" play-audio="sent"></inkd-timer>
+            <p class="time">10:43 PM</p>
+            <p class="messageSent">Emm.. well, thank you very much.<br>But it's pretty late now, I gotta go sleep.<br>I still got an exam tmr morning.<br>Good night!</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.5s, fadeInUp:1s:1">
+            <p class="context">You rudely and violently show the sign of "Closing" to the stranger.<br>You just don't want to be bothered anymore.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3.8s, fadeInUp:1s:1">
+            <p class="context">It reminds you something in the past, you used to talk a lot with your net friends, no matter what kind of topic,<br>from the new flavor of the coffee you just bought to international political news.<br>You spent a lot of time and power to stay tune with those.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeInUp:1s:1">
+            <p class="context">You did get benefit from it, such as relaxation, the joy from communication with someone you like,<br>and the extra knowledge and perspectives.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7s, fadeIn:1s:1">
+            <inkd-button goto="n040" id="op039" play-audio="button">But...</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n040 -->
+    <inkd-node name="n040">
+
+        <inkd-box animation="wait:1s, fadeInUp:1s:1">
+            <p class="context">However, you gradually found it's so time-consuming.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.8s, fadeInUp:1s:1">
+            <p class="context">You have to admit, you cannot pay so much attention on it,<br>regardless it's good or not.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3.5s, fadeInUp:1s:1">
+            <p class="context">You don't want to be bothered, that's the reason here.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeIn:1s:1">
+            <inkd-button goto="n041" id="op040" play-audio="button">But...</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n041 -->
+    <inkd-node name="n041" start-timer="countdown041">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">However, somehow you feel a little guilty.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.8s, fadeInUp:1s:1">
+            <p class="context">Whereas you won't regret, because this is not the first time that you hesitate.<br>Make a decision after the third time hesitation, this is your creed.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3s, fadeInUp:1s:1">
+            <inkd-timer name="countdown040" duration="3000ms" play-audio="message"></inkd-timer>
+            <p class="time">10:52 PM</p>
+            <p class="messageContent">Oh!! I'm sorry it's so late now.<br>Well then, cc, good luck to you,<br>for the tomorrow.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4s, fadeInUp:1s:1">
+            <p class="context">Yeah, it seems you don't need to regret for anything.<br>You put down the phone and go to the restroom.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5.5s, fadeInUp:1s:1">
+            <p class="context">There's not any new message after that until you go to sleep.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.5s, fadeIn:1s:1">
+            <inkd-button goto="n042" id="op041" play-audio="button">...</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n042 -->
+    <inkd-node name="n042" start-timer="countdown042">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">However, somehow you feel a little guilty.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.8s, fadeInUp:1s:1">
+            <p class="context">Whereas you won't regret, because this is not the first time that you hesitate.<br>Make a decision after the third time hesitation, this is your creed.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3s, fadeInUp:1s:1">
+            <inkd-timer name="countdown040" duration="0ms" play-audio="message"></inkd-timer>
+            <p class="time">10:52 PM</p>
+            <p class="messageSent">Oh!! I'm sorry it's so late now.<br>Well then, cc, good luck to you,<br>for the tomorrow.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4s, fadeInUp:1s:1">
+            <p class="context">Yeah, it seems you don't need to regret for anything.<br>You put down the phone and go to the restroom.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5.5s, fadeInUp:1s:1">
+            <p class="context">There's not any new message after that until you go to sleep.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.5s, fadeIn:1s:1">
+            <inkd-button goto="n043" id="op042" play-audio="button">...</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n043 -->
+    <inkd-node name="n043" start-timer="countdown043">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">Top of the morning!!</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.8s, fadeInUp:1s:1">
+            <p class="context">Sunshine breaks into the shutter and lands on your sheet.<br>You rub your eyse and wake up reluctantly, and welcome another day of sun.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4s, fadeInUp:1s:1">
+            <p class="context">You check your phone, several junk mails, texts.<br>The unexpected one is a text from that stranger last night.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeInUp:1s:1">
+            <inkd-timer name="countdown043" duration="5000ms" play-audio="message"></inkd-timer>
+            <p class="time">01:03 AM</p>
+            <p class="messageSent">Good luck to you forever, cc</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.5s, fadeIn:1s:1">
+            <inkd-button goto="n044" id="op043" play-audio="button">Wait..what?</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n044 -->
+    <inkd-node name="n044">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">You almost forget it.<br>Before that you've said good night to each other.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.8s, fadeInUp:1s:1">
+            <p class="context">You pretty sure that the stranger apparently knew you're asleep when he/she sent this message.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4s, fadeInUp:1s:1">
+            <p class="context">What is this for?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.5s, fadeIn:1s:1">
+            <inkd-button goto="n045" id="op044" play-audio="button">Sounds a lit weird...?</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n045 -->
+    <inkd-node name="n045" start-timer="countdown045">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">You try to send text back the stranger.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1s, fadeInUp:1s:1">
+            <inkd-timer name="countdown045" duration="1000ms" play-audio="sent"></inkd-timer>
+            <p class="time">8:43 AM</p>
+            <p class="messageSent">Emm.. Hey! Morning?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.5s, fadeInUp:1s:1">
+            <p class="context">You stare at the sending sign spinning.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeInUp:1s:1">
+            <p class="context">！ <br>Sending failed, the invalid number.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeInUp:1s:1">
+            <p class="context">The system notice you, you get stunned.<br>How it become an invalid number?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7s, fadeIn:1s:1">
+            <inkd-button goto="n046" id="op045" play-audio="button">What more you can do?</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n046 -->
+    <inkd-node name="n046">
+
+        <inkd-box animation="wait:0.8s, fadeInUp:1s:1">
+            <p class="context">You risk to call the number,<br>the robot voice notices you again.<br>This number doesn't exist.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.5s, fadeInUp:1s:1">
+            <p class="context">But how!?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeInUp:1s:1">
+            <p class="context">Your text was returned into the box.<br>You look at it, nothing to do with it.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeInUp:1s:1">
+            <p class="context">You missed it.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeInUp:1s:1">
+            <p class="context">Someone sent good wishes to you, then disappeared like evaporated.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeInUp:1s:1">
+            <p class="context">Now, if you get the other chance, what would you do?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7s, fadeIn:1s:1">
+            <inkd-button goto="n000" id="op046" play-audio="button">&lt;Start Over&gt;</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n047 -->
+    <inkd-node name="n047" start-timer="countdown047">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <inkd-timer name="countdown047" duration="0ms" play-audio="sent"></inkd-timer>
+            <p class="time">10:43 PM</p>
+            <p class="messageSent">Emm..I'm sorry but,<br>I don't remember your number, may I have your name?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.5s, fadeInUp:1s:1">
+            <p class="context">The time of traditional telephone has been passed by for decades. People are more aware of the virtual identity on the Internet.<br>You bet most young people today only remember 911, even though so do you.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3.8s, fadeInUp:1s:1">
+            <p class="context">You had experienced that time, when people need to write down telephone numbers page by page in case they forget.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeInUp:1s:1">
+            <p class="context">Families seldom change their numbers, so as each one on the notebook representatives a location, not so distant, the other home for some of your acquaintance.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7.5s, fadeInUp:1s:1">
+            <p class="time">10:50 PM</p>
+            <p class="messageContent">Oh.. I forgot tell you, I'm Snowy,<br>not quite sure you still remember me.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:8.5s, fadeIn:1s:1">
+            <inkd-button goto="n048" id="op047" play-audio="button">Snowy? doesn't sounds like a real name.</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n048 -->
+    <inkd-node name="n048" start-timer="countdown048">
+
+        <inkd-box animation="wait:0.8s, fadeInUp:1s:1">
+            <p class="context">You open the album of your memory and try to find something.<br>Because when this name appears, you feel vaguely familiar with it.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.9s, fadeInUp:1s:1">
+            <p class="context">It's a person you used to know through Internet. <br>A net friend.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3s, fadeInUp:1s:1">
+            <p class="context">...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4.5s, fadeInUp:1s:1">
+            <p class="context">Yes, around ten years ago, on a BBS...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeInUp:1s:1">
+            <inkd-timer name="countdown048" duration="5000ms" play-audio="message"></inkd-timer>
+            <p class="time">10:48 PM</p>
+            <p class="messageContent">Snowflake_930, this's my ID.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeInUp:1s:1">
+            <p class="context">Yes, it's her, Snowy.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7s, fadeIn:1s:1">
+            <inkd-button goto="n054" id="op048" play-audio="button">You recall somthing.</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n049 -->
+    <inkd-node name="n049">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">But you still don't know who he/she is.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.5s, fadeInUp:1s:1">
+            <p class="context">Since you've already put trust on him/her,<br>you decide to point out your question directly.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.7s, fadeIn:1s:1">
+            <inkd-button goto="n050" id="op049" class=".optionSent" play-audio="button">"May I have your name, please?"</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n050 -->
+    <inkd-node name="n050" start-timer="countdown050">
+
+        <inkd-box animation="wait:0.8s, fadeInUp:1s:1">
+            <inkd-timer name="countdown050" duration="800ms" play-audio="message"></inkd-timer>
+            <p class="time">10:52 PM</p>
+            <p class="messageSent">Oops, I forgot to tell you,<br>I'm Snowy, if you still remember...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7s, fadeIn:1s:1">
+            <inkd-button goto="n048" id="op050" play-audio="button">Snowy?...</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n051 -->
+    <inkd-node name="n051">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">When you feel unhappy, you try to make some small and little problems.<br>Such as typos, or unappropriate missing punctuations, or whatever.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.8s, fadeInUp:1s:1">
+            <p class="context">It's useless and immature, you know that,<br>but it's like a small evil you cannot evict.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4s, fadeInUp:1s:1">
+            <p class="context">But the message doesn't come very soon, which isn't as you thought before.<br>The guy over the other side, is he/she hestating for something? or even worse...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.5s, fadeIn:1s:1">
+            <inkd-button goto="n052" id="op051" play-audio="button">Maybe he/she is trying to make a bigger lie?!</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n052 -->
+    <inkd-node name="n052">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">You think about it, but not frightened at all.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.8s, fadeInUp:1s:1">
+            <p class="context">Sometimes, you're conceited about something. Admit it.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4s, fadeInUp:1s:1">
+            <p class="context">But beyond that, you still intuitively feel,<br>this isn't a terrifying trap.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.5s, fadeIn:1s:1">
+            <inkd-button goto="n053" id="op052" play-audio="button">...10 minutes later</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n053 -->
+    <inkd-node name="n053" start-timer="countdown053">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">This's suspicious.<br>The guy knows that he/she has already exposed himself/herself to you.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.8s, fadeInUp:1s:1">
+            <p class="context">But now he/she disappears.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4s, fadeInUp:1s:1">
+            <p class="context">Is he/she trying to hide something?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5.5s, fadeInUp:1s:1">
+            <inkd-timer name="countdown053" duration="5500ms" play-audio="message"></inkd-timer>
+            <p class="time">10:44 PM</p>
+            <p class="messageContent">I'm Snowy, not sure whether you remember.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.5s, fadeIn:1s:1">
+            <inkd-button goto="n048" id="op053" play-audio="button">Snowy? doesn't sounds like a real name.</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n054 -->
+    <inkd-node name="n054">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">That was the life when you're a middle school student.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.8s, fadeInUp:1s:1">
+            <p class="context">In the past, people have pen pals. Now they have Internet.<br>That's how you met Snowy.<br>Young people often have some personal thoughts that they don't want to share with the people around them.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4s, fadeInUp:1s:1">
+            <p class="context">Then you "go out of your house".<br>You found a "place" where people have the same interest as you gathered together.<br>They talked and communicated, exchanged their ideas. <br>You had never ecperienced something like this...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.5s, fadeIn:1s:1">
+            <inkd-button goto="n055" id="op054" play-audio="button">It's thrilling.</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n055 -->
+    <inkd-node name="n055">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">You joined them, and have a lot of new friends.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.2s, fadeInUp:1s:1">
+            <p class="context">You didn't know how they look like, never heard of their voices, where did they live.<br>But it didn't matter.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3s, fadeIn:1s:1">
+            <inkd-button goto="n056" id="op055" play-audio="button">What really matters was...</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n056 -->
+    <inkd-node name="n056" start-timer="countdown056">
+
+        <inkd-box animation="wait:0.5s, fadeInUp:1s:1">
+            <p class="context">You all understand each other.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.2s, fadeInUp:1s:1">
+            <p class="context">You can see others' souls are shinning, those remarkable, brilliant, creative, interesting souls.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3s, fadeInUp:1s:1">
+            <p class="context">It's a true colorful world.<br>Even though it's achromatic and silent.<br>The only sound you can hear was the slight white noise came from you typing the keyboard.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4.6s, fadeInUp:1s:1">
+            <p class="context">How about your real life? Oh it sucks.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5.8s, fadeInUp:1s:1">
+            <inkd-timer name="countdown056" duration="5800ms" play-audio="message"></inkd-timer>
+            <p class="time">10:56 PM</p>
+            <p class="messageContent">cc?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.5s, fadeInUp:1s:1">
+            <p class="context">New message breaks your thought, you forget to reply to her.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7.6s, fadeIn:1s:1">
+            <inkd-button goto="n057" id="op056" class=".optionSent" play-audio="button">"Yes, Snowy, I remember."</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n057 -->
+    <inkd-node name="n057" start-timer="countdown057">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <inkd-timer name="countdown057" duration="0ms" play-audio="sent"></inkd-timer>
+            <p class="time">11:00 PM</p>
+            <p class="messageSent">How's everything going, haven't been talking with u for a real long time</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1s, fadeInUp:1s:1">
+            <p class="context">You keep typing, if it's real Snowy,<br>then you do get a lot updates to tell her.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.8s, fadeInUp:1s:1">
+            <p class="time">11:03 PM</p>
+            <p class="messageSent">thank you so much for remembering my birthday.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3.4s, fadeInUp:1s:1">
+            <p class="context">You appriciate her greeting.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeIn:1s:1">
+            <inkd-button goto="n058" id="op057" play-audio="button">In your memory...</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n058 -->
+    <inkd-node name="n058">
+
+        <inkd-box animation="wait:1s, fadeInUp:1s:1">
+            <p class="context">Snowy is a girl several years older than you. <br>She's totally different from you when you two met each other.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.7s, fadeInUp:1s:1">
+            <p class="context">You were, or maybe still are a messy girl all the time.<br>You got some crazy ideas and passion like firework.<br>Then you summoned a bunch of people and worked together.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeInUp:1s:1">
+            <p class="context">After a few hours, you distracted.<br>That's what you always do.<br>Dashing through like an excitied puppy, dancing and singing like musical players,<br>then sneaked without any tracks left behind when you got bored.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.8s, fadeInUp:1s:1">
+            <p class="context">Snowy is on the opposite of you.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7.5s, fadeIn:1s:1">
+            <inkd-button goto="n059" id="op058" play-audio="button">Like her name...</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n059 -->
+    <inkd-node name="n059">
+
+        <inkd-box animation="wait:1s, fadeInUp:1s:1">
+            <p class="context">She is...not only a quiet girl.<br>She is differently tender.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.7s, fadeInUp:1s:1">
+            <p class="context">She knows a lot, and you know that she was in a prestigious college.<br>She talk slowly but clearly and thoughtfully.<br>She's willing to organize many things, to deal with handy that you're trying to run away from.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeInUp:1s:1">
+            <p class="context">She is the healer in team of you and your friends.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeInUp:1s:1">
+            <p class="context">You like that feeling was cared by such a girl that you adore.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7.5s, fadeIn:1s:1">
+            <inkd-button goto="n060" id="op059" play-audio="button">(Old times memory tastes like a candy..)</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n060 -->
+    <inkd-node name="n060" start-timer="countdown060">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <inkd-timer name="countdown060" duration="0ms" play-audio="message"></inkd-timer>
+            <p class="time">11:06 PM</p>
+            <p class="messageContent">Pretty good,<br>I feel lucky that I'm talking with you right now.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.4s, fadeInUp:1s:1">
+            <p class="context">She seems a little excited and unsteady.<br>But this small suspicious wouldn't attract your attention.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.5s, fadeInUp:1s:1">
+            <p class="context">Long time no see, it's usual.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:7.6s, fadeIn:1s:1">
+            <inkd-button goto="n061" id="op060a" class=".optionSent" play-audio="button">"I supposed to be the lucky one, talking with u!"</inkd-button>
+            <inkd-button goto="n063" id="op060b" class=".optionSent" play-audio="button">"Where have you been?"</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n061 -->
+    <inkd-node name="n061" start-timer="countdown061">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <inkd-timer name="countdown061" duration="0ms" play-audio="message"></inkd-timer>
+            <p class="time">11:06 PM</p>
+            <p class="messageContent">There's a long story...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.4s, fadeInUp:1s:1">
+            <p class="context">Though you were very close, after many new forums and social media have poped up,<br>you gradually walked on separate ways.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.5s, fadeInUp:1s:1">
+            <p class="context">It's common, like some best friends in middle school,<br>they seperated after getting into different colleges.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3.5s, fadeInUp:1s:1">
+            <p class="context">You haven't been talking with Snowy for couple years.<br>You have new friends who are even more close than her used to be.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4.9s, fadeInUp:1s:1">
+            <p class="context">But these doesn't affect that you unite with your old friend.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeIn:1s:1">
+            <inkd-button goto="n062" id="op061" play-audio="button">You also believe it's the same to Snowy.</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n062 -->
+    <inkd-node name="n062" start-timer="countdown062">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <inkd-timer name="countdown062" duration="0ms" play-audio="sent"></inkd-timer>
+            <p class="time">11:09 PM</p>
+            <p class="messageSent">I don't mind, you can say it.I can stay up,<br>nothing more important than chatting with you,<br>like we're playing an old times game.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1s, fadeInUp:1s:1">
+            <p class="time">11:10 PM</p>
+            <p class="messageSent">But I'm not sure where you are right now,<br>geographically, I mean the time difference</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.6s, fadeIn:1s:1">
+            <inkd-button goto="n063" id="op062" play-audio="button">Stars could shine and see each other, but in a far far distance..</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n063 -->
+    <inkd-node name="n063" start-timer="countdown063">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <inkd-timer name="countdown063" duration="0ms" play-audio="message"></inkd-timer>
+            <p class="time">11:12 PM</p>
+            <p class="messageContent">After I finished my bachelor degree, I had been to Europe for a while,</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1s, fadeInUp:1s:1">
+            <p class="time">11:13 PM</p>
+            <p class="messageContent">Tried to apply for some interesting programs there but failed. :(</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.3s, fadeInUp:1s:1">
+            <p class="time">11:15 PM</p>
+            <p class="messageContent">Then I back to, u know the place it's like a slumberland of sunshine, beach, and juicy oranges!</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4s, fadeInUp:1s:1">
+            <p class="context">Ah.. You know it's where. A place that you would never dare to think about it,<br>a place built up by the top elites of the world<br>and still domains the industry.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeIn:1s:1">
+            <inkd-button goto="n064" id="op062" play-audio="button">Like a summit.</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n064 -->
+    <inkd-node name="n064" start-timer="countdown064">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <p class="context">You know she's always one of the top student,<br>but when the process is told by her, everthing sounds so easy.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.3s, fadeInUp:1s:1">
+            <inkd-timer name="countdown064" duration="1300ms" play-audio="sent"></inkd-timer>
+            <p class="time">11:15 PM</p>
+            <p class="messageSent">That's AWESOME!!!<br>and well then, you're a few hours after me. lol</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.6s, fadeIn:1s:1">
+            <inkd-button goto="n065" id="op064" play-audio="button">You are in the "woods" while she is driving across the "bridge"</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n065 -->
+    <inkd-node name="n065" start-timer="countdown065">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <inkd-timer name="countdown065" duration="0ms" play-audio="message"></inkd-timer>
+            <p class="time">11:16 PM</p>
+            <p class="messageContent">Great job! cc, I know you can kick it!</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.5s, fadeInUp:1s:1">
+            <p class="context">As clever as her, she already figured out where you're.<br>And the compliment from someone you adore makes you flush.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3s, fadeInUp:1s:1">
+            <p class="time">11:19 PM</p>
+            <p class="messageSent">Oh nooo, you know I'm not that good as you.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:4s, fadeInUp:1s:1">
+            <p class="time">11:20 PM</p>
+            <p class="messageContent">Overall, that is a great place, it's a freeland of culture,<br>the cradle of American civilization and history,<br>it has recorded so many epic moments...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5.4s, fadeInUp:1s:1">
+            <p class="context">Haha, Snowy is talking obsessely..</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.7s, fadeIn:1s:1">
+            <inkd-button goto="n066" id="op065" play-audio="button" class="optionSent">"Yes, I do love here so much."</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n066 -->
+    <inkd-node name="n066" start-timer="countdown066">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <inkd-timer name="countdown066" duration="0ms" play-audio="message"></inkd-timer>
+            <p class="time">11:22 PM</p>
+            <p class="messageContent">I'm so glad hear that :^)</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1s, fadeInUp:1s:1">
+            <p class="context">Where did she get these funny smiling faces?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2s, fadeInUp:1s:1">
+            <p class="time">11:24 PM</p>
+            <p class="messageContent">So, how's your school going?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3.5s, fadeIn:1s:1">
+            <inkd-button goto="" id="op066a" play-audio="button" class="optionSent">"Not so bad I guess"</inkd-button>
+            <inkd-button goto="" id="op066b" play-audio="button" class="optionSent">"Quite difficult..."</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n067 -->
+    <inkd-node name="n067" start-timer="countdown067">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <p class="context">Who is this guy?<br>He or she knows your name and phone number,and even probably is sending text to you.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.5s, fadeInUp:1s:1">
+            <p class="context">You actually seldom use phone number for catching up others.<br>Emails fly everywhere over clouds.<br>If something urgent, you'd make a call.<br>Who is still typing a text to you, and for what?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3.5s, fadeInUp:1s:1">
+            <p class="context">The mystery pulls you back from your homework.<br>Somehow, you start expecting the text could come again.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:5s, fadeInUp:1s:1">
+            <inkd-timer name="countdown067" duration="5000ms" play-audio="message"></inkd-timer>
+            <p class="time">10:16 PM</p>
+            <p class="messageContent">I want to speak to you, Cecile</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6s, fadeIn:1s:1">
+            <inkd-button goto="n068" id="op067" play-audio="button">And it surely reads your mind.</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n068 -->
+    <inkd-node name="n068" start-timer="countdown068">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <inkd-timer name="countdown068" duration="0ms" play-audio="message"></inkd-timer>
+            <p class="time">10:17 PM</p>
+            <p class="messageContent">Oh! Before that, almost forgot.<br>Happy Birthday! Cecile</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.2s, fadeInUp:1s:1">
+            <p class="context">An extra new notification pops up when you stare at the last one.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2.8s, fadeIn:1s:1">
+            <inkd-button goto="n069" id="op068" play-audio="button">Surprised but not so bad.</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
+    <!-- n069 -->
+    <inkd-node name="n069">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <p class="context">Yes, today is your birthday, Cecile.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:1.2s, fadeInUp:1s:1">
+            <p class="context">But you're not excited about it. 10 PM at night, still got a lot of assignments to do.<br>Like all other students need stay focused to keep a good grade,<br>you're not an exception.</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:3s, fadeInUp:1s:1">
+            <p class="context">Your mom and several close friends sent you greetings on the morning. You're glad about it, and not disappoint of not getting any presents.<br>People around you barely know your birthday.<br>You don't like crowds, and only let someone that you think they're special to know more about yourself.</p>
+        </inkd-box>
+        
+        <inkd-box animation="wait:5.5s, fadeInUp:1s:1">
+            <p class="context">You hide, while...</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:6.5s, fadeIn:1s:1">
+            <inkd-button goto="n070" id="op069" play-audio="button">This stranger finds a way entering your castle.</inkd-button>
+        </inkd-box>
+    </inkd-node>
+    
+    <!-- n070 -->
+    <inkd-node name="n070">
+
+        <inkd-box animation="wait:0s, fadeInUp:1s:1">
+            <p class="context">How?</p>
+        </inkd-box>
+        
+        <inkd-box animation="wait:1s, fadeInUp:1s:1">
+            <p class="context">And why?</p>
+        </inkd-box>
+
+        <inkd-box animation="wait:2s, fadeIn:1s:1">
+            <inkd-button goto="n071" id="op070a" play-audio="button">Wait for the next move.</inkd-button>
+            <inkd-button goto="" id="op070b" play-audio="button">Grab the phone.</inkd-button>
+        </inkd-box>
+    </inkd-node>
+
 
 
 
